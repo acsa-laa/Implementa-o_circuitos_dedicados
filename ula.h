@@ -5,14 +5,15 @@
   class ULA {
     
    private:
-     int a, b, s;
+     double a, b;
+     double s;
      bool cond;
    
    public:
      ULA();
-     void readA(int _a);
-     void readB(int _b);
-     int writeResult();
+     void readA(double _a);
+     void readB(double _b);
+     double writeResult();
      void op(int ulaOP); 
      bool getCond();
   };

@@ -8,7 +8,7 @@ REGS::REGS(){
             regs[4] = 0;
             regs[5] = 0;
             regs[6] = 0;
-            regs[7] = 0;
+            regs[7] = 1;
             regs[8] = 0;
             regs[9] = 0;
             regs[10] = 1;
@@ -17,9 +17,9 @@ REGS::REGS(){
             regs[13] = -1;
             regs[14] = 0.00001;
             };
-int REGS::readR(int _adress) {
+double REGS::readR(int _adress) {
     return (regs[_adress]);
 };
-void REGS::writeR(int _adress, float _v) {
+void REGS::writeR(int _adress, double _v) {
     regs[_adress]= _v;
 };

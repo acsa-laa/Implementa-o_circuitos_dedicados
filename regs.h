@@ -1,13 +1,14 @@
 #ifndef _regs_
 #define _regs_    
-    
+    #include<iostream>
+    using namespace std;
     class REGS{
     	private:
-            float regs[15];
+            double regs[15];
 
     	public:
     		REGS();
-            int readR(int _adress);
-            void writeR(int _adress, float _v);
+            double readR(int _adress);
+            void writeR(int _adress, double _v);
     };
 #endif

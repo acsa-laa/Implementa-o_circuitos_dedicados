@@ -8,14 +8,15 @@ switch case para cada operação da ula
    
 ULA::ULA() { cond= false; };
 
-void ULA::readA(int _a) {
+void ULA::readA(double _a) {
 	a = _a;
 };
-void ULA::readB(int _b) {
+void ULA::readB(double _b) {
 	b= _b;
 };
-int ULA::writeResult() {
-	return(s);
+double ULA::writeResult() {
+	cout << "Saída: " << s << endl;
+  return(s);
 };
 
 void ULA::op(int ulaOP) {

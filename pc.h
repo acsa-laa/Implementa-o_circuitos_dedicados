@@ -8,8 +8,10 @@ FTE - switch case para cada estado, (em cada estado chama a saída ou a ula, ou 
 
 #ifndef _pc_
 #define _pc_
+#include<iostream>
 #include"ula.h"
 #include"regs.h"
+using namespace std;
 class PC {
     
     private: 
