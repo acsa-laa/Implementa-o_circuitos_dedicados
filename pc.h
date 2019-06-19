@@ -23,9 +23,9 @@ class PC {
     public:
     PC(ULA _ula, REGS _regs);
     
-    void FTE_FS ();
+    void FTE_FS();
     
-    void updateState ();
+    void updateState();
         
     bool getLastState();
 };
